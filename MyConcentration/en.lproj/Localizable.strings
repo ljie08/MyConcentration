@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  MyConcentration
+
+  Created by ljie on 2017/8/11.
+  Copyright © 2017年 AppleFish. All rights reserved.
+*/
+"begin"="Relax";
+
+"pause"="Pause";
+"stop"="Stop";
+"continue"="Continue";
+"cancel"="Cancel";
+"finish"="Finish";
+
+"today"="Today";
+
+"number"="Number";
+"time"="Time(minute)";
+"history"="History";
+
+"lively"="Lively";
+"sleep"="Sleep";
+"stroll"="Stroll";
+"alone"="Alone";
+
+"hint"="If you lose yourself\nyou will find yourself";
+
+"morning"="Good Moring";
+"a.m"="Good Forenoon";
+"midday"="Good Midday";
+"p.m"="Good\nAfternoon";
+"night"="Good Night";
+
+"ci"=" ";
+"all"="In Total";
+"fen"="minutes";
+
+"yesterday"="YDay";
+"nodate"="NoDate";
+
+"hisdata"="Nearly a week";
+"hisbest"="The Best in history";
+
+"所有数据"="All Data";
+"还没有数据"="No Data";

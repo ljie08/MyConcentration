@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
+            <connections>
+                <outlet property="detailTable" destination="fSj-Ix-bat" id="4Sh-BW-Tnf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vpC-x2-ffR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3Ro-LJ-NF6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="fSj-Ix-bat">
+                                <rect key="frame" x="20" y="0.0" width="335" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="-1" id="IYe-RE-atv"/>
+                                    <outlet property="delegate" destination="-1" id="TA0-lo-3s1"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="fSj-Ix-bat" firstAttribute="leading" secondItem="3Ro-LJ-NF6" secondAttribute="leading" constant="20" id="Cyq-BK-yPp"/>
+                            <constraint firstItem="fSj-Ix-bat" firstAttribute="top" secondItem="3Ro-LJ-NF6" secondAttribute="top" id="SUp-Q8-ROO"/>
+                            <constraint firstAttribute="bottom" secondItem="fSj-Ix-bat" secondAttribute="bottom" id="q4Z-ba-t11"/>
+                            <constraint firstAttribute="trailing" secondItem="fSj-Ix-bat" secondAttribute="trailing" constant="20" id="zh8-I7-odi"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vpC-x2-ffR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Od-VC-xCm"/>
+                <constraint firstItem="vpC-x2-ffR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LdC-Dk-bOU"/>
+                <constraint firstAttribute="trailing" secondItem="vpC-x2-ffR" secondAttribute="trailing" id="pjB-Bv-qZg"/>
+                <constraint firstAttribute="bottom" secondItem="vpC-x2-ffR" secondAttribute="bottom" id="yQc-3Y-f9F"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>
